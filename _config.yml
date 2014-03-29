@@ -1,1 +1,21 @@
-baseurl:
+markdown: rdiscount
+auto: true
+pygments: true
+url: http://senserhit.github.com
+#paginate: 10
+#markdown_ext: markdown,mkd,mkdn,md
+title: senserhit
+years:
+- "2014"
+main_menu:
+- label: Home
+  url: /index.html
+- label: Blog
+  url: /blog.html
+- label: About
+  url: /about.html
+#- label: Projects
+#  url: /projects.html
+#- label: Resources
+#  url: /resources.html
+
