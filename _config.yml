@@ -1,21 +1,31 @@
-markdown: rdiscount
-auto: true
-pygments: true
-url: http://senserhit.github.com
-#paginate: 10
-#markdown_ext: markdown,mkd,mkdn,md
-title: senserhit
-years:
-- "2014"
-main_menu:
-- label: Home
-  url: /index.html
-- label: Blog
-  url: /blog.html
-- label: About
-  url: /about.html
-#- label: Projects
-#  url: /projects.html
-#- label: Resources
-#  url: /resources.html
+title: jekyll-rtd-theme
+description: Just another documentation theme compatible with GitHub Pages
 
+theme: null
+
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
+
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
