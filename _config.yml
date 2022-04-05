@@ -29,3 +29,5 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
+  - test1
+  - test_long
